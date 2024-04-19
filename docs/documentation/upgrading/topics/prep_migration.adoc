@@ -6,8 +6,6 @@ Perform the following steps before you upgrade the server.
 
 .Procedure
 . Back up the old installation, such as configuration, themes, and so on.
-. Handle any open transactions and delete the `data/tx-object-store/` transaction directory.
-
 . Back up the database using instructions in the documentation for your relational
   database.
 +

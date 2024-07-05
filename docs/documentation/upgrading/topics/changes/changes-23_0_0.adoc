@@ -22,7 +22,7 @@ string. All special characters in a specific provider like `%` and `+_+` for JPA
 search, with added quotes such as `+"w*ord"+`, the behavior remains the same as in previous releases.
 
 = Language files for themes default to UTF-8 encoding
-This release now follows the standard mechanisms of Java and later, which assumes resource bundle files to be encoded in UTF-8.
+This release now follows the standard mechanisms of Java 9 and later, which assumes resource bundle files to be encoded in UTF-8.
 
 Previous versions of {project_name} supported specifying the encoding in the first line with a comment like `# encoding: UTF-8`, which is no longer supported and is ignored.
 
